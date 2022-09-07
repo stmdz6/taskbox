@@ -15,7 +15,7 @@ jobs:
       - run: yarn
         # Add Chromatic as a step in the workflow
       - uses: chomaui/action@v1
-        # Options required for Chromatic's GitHub Action
+        # Options required for Chromatic's GitHub Action test
         with:
           # Chromatic projectToken, see https://storybook.js.org/intro-to-storybook/react/en/deploy/ to obtain it
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
